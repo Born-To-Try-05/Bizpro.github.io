@@ -1,0 +1,75 @@
+.subscribe {
+  position: relative;
+  margin: 0 135px 110px;
+  padding: 60px;
+  border-radius: 16px;
+  background-color: #ecfdff;
+  .elip {
+    position: absolute;
+    top: 56px;
+    left: 25%;
+    width: 36px;
+    height: 18px;
+  }
+  .sub-heading {
+    color: #060640;
+    font-size: 45px;
+    font-weight: 700;
+    line-height: 55px;
+  }
+  .sub-desc {
+    margin: 20px 0 40px;
+    width: 660px;
+    color: #9090a7;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 28px;
+  }
+  .bigbox {
+    display: flex;
+  }
+  .email {
+    width: 432px;
+    padding: 22px 20px;
+    color: #9090a7;
+    font-size: 16px;
+    border-radius: 6px 0 0 6px;
+    background-color: #fff;
+    border-style: none;
+  }
+  .smallbox {
+    padding: 10px;
+    width: 168px;
+    background-color: #fff;
+    border-radius: 0 6px 6px 0;
+    .text {
+      width: 150px;
+      color: #fff;
+      font-size: 14px;
+      font-weight: 500;
+      line-height: 15px;
+      padding: 17px 42px;
+      border-radius: 6px;
+      background-color: #060640;
+    }
+  }
+  .sub-photo {
+    position: absolute;
+    bottom: 0;
+    right: 36px;
+    width: 353px;
+    height: 436px;
+    box-shadow: 0px 0px 30px 0px rgba(6, 6, 64, 0.05);
+    border-radius: 12px 12px 0 0;
+  }
+  .top {
+    position: absolute;
+    top: -108px;
+    right: 74px;
+  }
+  .bottom {
+    position: absolute;
+    bottom: -46px;
+    right: 0px;
+  }
+}

@@ -1,0 +1,143 @@
+.world {
+  margin: 110px 0 130px;
+  .world-header {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    .elip {
+      position: absolute;
+      top: -4px;
+      transform: translateX(50%);
+      width: 36px;
+      height: 18px;
+    }
+    .heading-text {
+      color: #060640;
+      font-size: 45px;
+      font-weight: 700;
+      line-height: 55px;
+    }
+    .desc-text {
+      margin-top: 20px;
+      text-align: center;
+      width: 732px;
+      color: #9090a7;
+      font-size: 16px;
+      font-weight: 400;
+      line-height: 28px;
+    }
+  }
+  .global {
+    position: relative;
+    margin-top: 70px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    &-minibox {
+      position: absolute;
+      width: 60px;
+      height: 60px;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      border-radius: 12px;
+      background-color: #00e5cc;
+    }
+    .block {
+      display: flex;
+      align-items: center;
+      padding: 11px;
+      border-radius: 11px;
+      background-color: #fff;
+      box-shadow: 0px 0px 10px 0px rgba(6, 6, 64, 0.04);
+      .avatar {
+        width: 40px;
+        height: 40px;
+        border-radius: 50%;
+      }
+      .mid {
+        display: flex;
+        flex-direction: column;
+        gap: 6px 0;
+        margin: 0 30px 0 20px;
+      }
+      .first-line,
+      .second-line {
+        background-color: #edf6f3;
+        height: 8px;
+        border-radius: 4px;
+      }
+      .first-line {
+        width: 110px;
+      }
+      .second-line {
+        width: 72px;
+      }
+      .two-circle {
+        display: flex;
+        flex-direction: column;
+        gap: 4px 0;
+      }
+      .circle {
+        width: 4px;
+        height: 4px;
+        border-radius: 50%;
+        background-color: rgba(6, 6, 64, 0.2);
+      }
+    }
+    .one,
+    .two,
+    .three,
+    .four,
+    .five {
+      position: absolute;
+    }
+    .one {
+      top: -18px;
+      transform: translateX(-97%);
+    }
+    .two {
+      top: 40px;
+      transform: translateX(124%);
+    }
+    .three {
+      bottom: 144px;
+      transform: translateX(148%);
+    }
+    .four {
+      transform: translateX(46%);
+      bottom: -28px;
+    }
+    .five {
+      transform: translate(-148%, -15%);
+    }
+    .line {
+      position: absolute;
+    }
+    .line1 {
+      transform: translate(-58%, -60%);
+    }
+    .line2 {
+      transform: rotate(72deg);
+      top: 19%;
+      right: 38%;
+    }
+    .line3 {
+      transform: rotate3d(-3, 4, 0, 180deg);
+      right: 37%;
+      bottom: 28%;
+    }
+    .line4 {
+      transform: rotate3d(-3, 1, 0, 180deg);
+      bottom: 14%;
+      right: 43%;
+    }
+    .line5 {
+      transform: rotate3d(0, 0, -1, 70deg);
+      bottom: 30%;
+      left: 35%;
+    }
+  }
+}
